@@ -28,8 +28,15 @@ h1, h2, h3 {
     font-weight: 800;
 }
 
-.alert-notice{
-    display: none;
+.flash-container{
+    position: relative;
+}
+
+.alert-notice, .alert-alert{
+    position: absolute;
+    background-color: #fff9;
+    width: 100%;
+    text-align: center;
 }
 
 .home-signup-links{

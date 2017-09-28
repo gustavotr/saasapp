@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20170928222613) do
 
   create_table "profiles", force: :cascade do |t|
     t.integer  "user_id"
-    t.string   "fir_name"
+    t.string   "first_name"
     t.string   "last_name"
     t.string   "job_title"
     t.string   "phone_number"
